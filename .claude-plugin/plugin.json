@@ -1,0 +1,11 @@
+{
+  "name": "jiho-kim-skills",
+  "description": "김지호가 AI와 일하는 방식을 규칙으로 옮긴 행동 지침. 기획 먼저, 단순하게, 전체를 근본부터, 직접 확인. 세션 615개 분석에서 도출.",
+  "version": "1.0.0",
+  "author": {
+    "name": "jiho-kim"
+  },
+  "license": "MIT",
+  "keywords": ["guidelines", "workflow", "korean", "planning-first", "verification"],
+  "skills": ["./skills/jiho-kim-guidelines"]
+}

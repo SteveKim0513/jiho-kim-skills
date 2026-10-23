@@ -1,0 +1,24 @@
+{
+  "name": "jiho-kim-skills",
+  "id": "jiho-kim-skills",
+  "owner": {
+    "name": "jiho-kim"
+  },
+  "metadata": {
+    "description": "김지호가 AI와 일하는 방식을 규칙으로 옮긴 행동 지침. 세션 615개 분석에서 도출.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "jiho-kim-skills",
+      "source": "./",
+      "description": "행동 지침 6개: 범위와 기준 먼저, 기획 먼저, 단순하게, 전체를 근본부터, 직접 확인, 병렬 세션 안전",
+      "version": "1.0.0",
+      "author": {
+        "name": "jiho-kim"
+      },
+      "keywords": ["guidelines", "workflow", "korean", "planning-first", "verification"],
+      "category": "workflow"
+    }
+  ]
+}
