@@ -1,6 +1,6 @@
 # Jiho Kim Skills
 
-Behavioral guidelines for working with an AI agent. A single `CLAUDE.md` in the layout of [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills).
+Behavioral guidelines for working with an AI agent, in a single `CLAUDE.md`.
 
 [한국어](./README.md) | English
 
@@ -40,10 +40,6 @@ Ten yes/no tests, each run at a fixed moment. Starred tests fail on "yes".
 5. **Done means verified.** Use it like a first-time user. Never claim what you didn't run.
 
 Plus conversation rules (answer first, show a sample, "looks good" is not sign-off) and code rules (MECE, one owner per fact, one-way dependencies, no bolt-ons). Full text: [CLAUDE.md](./CLAUDE.md). Examples: [EXAMPLES.md](./EXAMPLES.md).
-
-## Versus Karpathy
-
-**Principle 4 is the opposite of Surgical Changes:** one correction widens to the same pattern everywhere, but only the same problem. If both are installed, this one wins. The rest extends Karpathy's direction with the sharp tests, a stop rule, a replacement rule, and code design rules.
 
 ## Origin
 

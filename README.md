@@ -1,6 +1,6 @@
 # Jiho Kim Skills
 
-AI 에이전트와 일할 때 쓰는 행동 지침. [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills)와 같은 구조의 `CLAUDE.md` 하나다.
+AI 에이전트와 일할 때 쓰는 행동 지침. `CLAUDE.md` 하나로 쓴다.
 
 한국어 | [English](./README.en.md)
 
@@ -48,18 +48,6 @@ AI를 많이 쓰지만 결과가 항상 좋지는 않다. 원인은 세 가지�
 **코드를 쓸 때:** 덧대지 않고 설계를 지킨다. 역할은 MECE로 나누고, 사실 하나에 주인 하나, 의존은 한 방향. 새 기능은 기존 구조의 제자리에 넣고, 안 맞으면 구조 변경을 제안한다. 상태를 바꾸는 일은 두 번 돌거나 중간에 죽어도 안전해야 한다.
 
 전문은 [CLAUDE.md](./CLAUDE.md), 전/후 예시는 [EXAMPLES.md](./EXAMPLES.md).
-
-## 카파시 지침과 다른 점
-
-| 카파시 | 여기 |
-|---|---|
-| Think Before Coding | 원칙 1, 2. 가정을 말하는 데서 그치지 않고 빈 칸이 없어질 때까지 묻는다. 부분을 고쳐도 전체를 지킨다 |
-| Simplicity First | 원칙 3. 같은 방향에 두 번 실패하면 멈추기와 대체 규칙을 더했다 |
-| **Surgical Changes** | **원칙 4. 반대.** 지적 하나를 같은 패턴 전체로 넓힌다. 단 같은 문제만 |
-| Goal-Driven Execution | 원칙 5. 실제 사용자처럼 써 보고, 확인 못 한 것을 따로 보고한다 |
-| (없음) | 날카로운 기준 10개, 코드 설계 규칙 |
-
-둘을 함께 쓰면 원칙 4가 충돌한다. 이쪽이 우선한다.
 
 ## 출처
 
