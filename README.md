@@ -67,8 +67,6 @@ Claude Code 플러그인:
 curl https://raw.githubusercontent.com/SteveKim0513/jiho-kim-skills/main/CLAUDE.md >> ~/.claude/CLAUDE.md
 ```
 
-Cursor는 `.cursor/rules/jiho-kim-guidelines.mdc`가 항상 적용된다. 자세한 건 [CURSOR.md](./CURSOR.md).
-
 ## 요청하는 사람을 위한 틀
 
 원칙 1은 AI가 빈 칸을 묻게 하지만, 첫 메시지에 직접 주면 더 빠르다.
@@ -82,6 +80,6 @@ Cursor는 `.cursor/rules/jiho-kim-guidelines.mdc`가 항상 적용된다. 자세
 
 ## 파일
 
-`CLAUDE.md`, `skills/jiho-kim-guidelines/SKILL.md`, `.cursor/rules/jiho-kim-guidelines.mdc`의 본문은 같아야 한다. 하나를 고치면 셋을 함께 고친다.
+`CLAUDE.md`와 `skills/jiho-kim-guidelines/SKILL.md`의 본문은 같아야 한다. 하나를 고치면 둘을 함께 고친다.
 
 MIT
