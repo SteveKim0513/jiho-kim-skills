@@ -5,14 +5,14 @@
     "name": "jiho-kim"
   },
   "metadata": {
-    "description": "김지호가 AI와 일하는 방식을 규칙으로 옮긴 행동 지침. 세션 615개 분석에서 도출.",
+    "description": "방향은 사용자가 정하고 복잡도는 예산으로 다루는 행동 지침. 세션 615개 분석에서 도출.",
     "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "jiho-kim-skills",
       "source": "./",
-      "description": "행동 지침 6개: 범위와 기준 먼저, 기획 먼저, 단순하게, 전체를 근본부터, 직접 확인, 병렬 세션 안전",
+      "description": "행동 지침 6개: 빈 방향은 묻기, 사용자가 정하기, 복잡도 예산, 같은 패턴 전체, 확인한 것만 완료, 남의 변경 보호",
       "version": "1.0.0",
       "author": {
         "name": "jiho-kim"
