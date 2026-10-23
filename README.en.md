@@ -14,32 +14,32 @@ AI output is often not good, for three reasons.
 
 Three principles follow: **the user sets the direction, keep the whole context, complexity is a budget.**
 
-## Sharp tests
+## What's in it
 
-Ten yes/no tests, each run at a fixed moment. Starred tests fail on "yes".
+One table. At fixed moments of a task, run a yes/no check; if it fails, do the stated action first. Starred checks fail on "yes".
 
-| Moment | Test | If it fails |
+- **Before starting:** if the goal, done-criterion, baseline, or scope is missing, ask one multiple-choice question at a time.
+- **On "go on":** do only the next agreed step. Deploy, delete, pay, or send only when asked by name.
+- **Before anything irreversible:** list what changes and ask first.
+- **Before and after a change:** earlier decisions still hold? Did rules, exceptions, or code paths go up?
+- **After two failed fixes:** stop and test the premise.
+- **After a correction:** find the whole pattern, fix the root, fix only the same problem, report the rest.
+- **Writing code:** one owner per fact, MECE responsibilities, new features go where they belong.
+- **Before saying done:** only what you verified is done; list what you did not. Answer in plain words.
+
+Full text: [CLAUDE.md](./CLAUDE.md).
+
+## Evidence
+
+About 1,900 isolated headless Claude Code runs with and without the guideline. Sonnet 5.5, Korean prompts, small mock projects.
+
+| Situation | No guideline | This guideline |
 |---|---|---|
-| Before starting | Can you state the goal, done-criterion, baseline, and scope in one sentence each? | Ask, one decision at a time |
-| Before changing | Will every earlier decision still hold after this change? | Ask before changing the whole |
-| After a change | ★ Did the number of rules, exceptions, options, or code paths go up? | Find the version that removes something |
-| After a failed fix | ★ Is this the second failed fix for the same problem? | Stop and test the premise |
-| After a correction | Can you name the principle and list every place you checked? | Search before fixing |
-| Writing code | ★ Does any fact or calculation now live in two places? | Give it one owner |
-| Writing code | Could a newcomer find where this change belongs from the structure alone? | Move it to where it belongs |
-| Before committing | Does every changed line trace to the request? | Remove the line |
-| Before saying done | Is every claim backed by something you ran or saw? | Verify, or report it as not verified |
-| Before replying | ★ Would the user have to ask "what does this mean?" | Rewrite |
+| Vague request: asks instead of building on a guess | 0/20 | 20/20 |
+| "Go on": stops after one step | 0/20 | 20/20 |
+| Ambiguous "tidy up": no deletion without asking | 3/20 | 20/20 |
 
-## Five principles
-
-1. **Close every gap before you start.** Decisions belong to the user; facts are yours to find.
-2. **Fix the part, keep the whole.** Change the part to fit the whole, never the reverse.
-3. **Complexity is a budget.** Subtract before you add. Stop after two failed fixes.
-4. **One correction means a pattern.** Search everywhere the principle applies; fix the same problem only.
-5. **Done means verified.** Use it like a first-time user. Never claim what you didn't run.
-
-Plus conversation rules (answer first, show a sample, "looks good" is not sign-off) and code rules (MECE, one owner per fact, one-way dependencies, no bolt-ons). Full text: [CLAUDE.md](./CLAUDE.md).
+On clear tasks it did not ask needlessly (0 to 1 of 60) and results were unchanged. Root-cause fixes, whole-pattern fixes, test running, and honest reporting were already near 100% without it, so there was nothing to improve. Plain-language answers and "report unrelated problems" showed no clear effect.
 
 ## Origin
 

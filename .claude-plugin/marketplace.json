@@ -11,7 +11,7 @@
     {
       "name": "jiho-kim-skills",
       "source": "./",
-      "description": "Five common rules (close every gap, fix the part and keep the whole, complexity is a budget, one correction means a pattern, done means verified) plus conversation and code rules",
+      "description": "One table of yes/no checks run at fixed moments of a task: ask before building on a guess, stop at one step on \"go on\", confirm before irreversible work, keep the whole context, subtract before adding, verify before saying done.",
       "version": "1.1.0",
       "author": {
         "name": "jiho-kim"
