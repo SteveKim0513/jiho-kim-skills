@@ -39,7 +39,7 @@ Ten yes/no tests, each run at a fixed moment. Starred tests fail on "yes".
 4. **One correction means a pattern.** Search everywhere the principle applies; fix the same problem only.
 5. **Done means verified.** Use it like a first-time user. Never claim what you didn't run.
 
-Plus conversation rules (answer first, show a sample, "looks good" is not sign-off) and code rules (MECE, one owner per fact, one-way dependencies, no bolt-ons). Full text: [CLAUDE.md](./CLAUDE.md). Examples: [EXAMPLES.md](./EXAMPLES.md).
+Plus conversation rules (answer first, show a sample, "looks good" is not sign-off) and code rules (MECE, one owner per fact, one-way dependencies, no bolt-ons). Full text: [CLAUDE.md](./CLAUDE.md).
 
 ## Origin
 
