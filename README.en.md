@@ -52,6 +52,6 @@ Generalized from what users repeatedly asked for across 600+ real AI work sessio
 /plugin install jiho-kim-skills@jiho-kim-skills
 ```
 
-Plugin skills load when Claude judges the description relevant, so they are not always on. For always-on, put [CLAUDE.md](./CLAUDE.md) in your project or append it to `~/.claude/CLAUDE.md`.
+Plugin skills load when Claude judges the description relevant. In testing it loaded almost every time, but that is not guaranteed. For always-on, put [CLAUDE.md](./CLAUDE.md) in your project or append it to `~/.claude/CLAUDE.md`.
 
 MIT

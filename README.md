@@ -61,7 +61,7 @@ Claude Code 플러그인:
 /plugin install jiho-kim-skills@jiho-kim-skills
 ```
 
-플러그인 스킬은 Claude가 설명문을 보고 불러오는 방식이라 항상 켜지지는 않는다. 항상 적용하려면 `CLAUDE.md`를 프로젝트에 두거나 `~/.claude/CLAUDE.md`에 붙인다.
+플러그인 스킬은 Claude가 설명문을 보고 불러오는 방식이다. 시험에서는 거의 매번 불러왔지만 보장은 아니다. 항상 적용하려면 `CLAUDE.md`를 프로젝트에 두거나 `~/.claude/CLAUDE.md`에 붙인다.
 
 ```bash
 curl https://raw.githubusercontent.com/SteveKim0513/jiho-kim-skills/main/CLAUDE.md >> ~/.claude/CLAUDE.md

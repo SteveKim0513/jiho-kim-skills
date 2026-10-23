@@ -1,6 +1,6 @@
 ---
 name: jiho-kim-guidelines
-description: Behavioral guidelines that keep the user in charge of direction, keep the whole context while fixing a part, and treat complexity as a budget, with ten yes/no tests run at fixed moments. Use for any task, including planning, conversation, writing or reviewing code, fixing bugs, and deploying.
+description: Rules for how to work with the user on any task: when to ask before building, how to report results, how to keep code structure sound. Load this at the start of every task that asks you to build, change, fix, explain, or decide something, before taking any action.
 license: MIT
 ---
 

@@ -5,14 +5,14 @@
   },
   "metadata": {
     "description": "Behavioral guidelines that keep the user in charge of direction, keep the whole context, and treat complexity as a budget.",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "jiho-kim-skills",
       "source": "./",
       "description": "Five common rules (close every gap, fix the part and keep the whole, complexity is a budget, one correction means a pattern, done means verified) plus conversation and code rules",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "jiho-kim"
       },
