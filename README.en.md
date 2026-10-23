@@ -6,29 +6,35 @@ A single `CLAUDE.md` in the layout of [andrej-karpathy-skills](https://github.co
 
 ## Why
 
-AI output is often not good, for two reasons.
+AI output is often not good, for three reasons.
 
 - **The AI takes the lead.** It is a probabilistic model, so when it holds the direction, quality varies from run to run.
+- **It sees only the part.** While fixing one spot it loses the whole context.
 - **Complexity climbs.** It solves problems in increasingly complex ways and drifts away from the original problem.
 
-Two principles follow: **the user sets the direction; complexity is a budget.**
+Three principles follow: **the user sets the direction, keep the whole context, complexity is a budget.**
 
-## Six rules
+## Structure
+
+**Common rules** (every task)
 
 | # | Rule | Prevents |
 |---|---|---|
-| 0 | If direction is missing, keep asking | Gaps filled by guessing |
-| 1 | The user decides, the AI proposes | Lost initiative, reversed decisions |
-| 2 | Complexity is a budget | Piling on, stacking attempts on one problem |
-| 3 | When corrected, find the whole pattern | Fixing one spot, band-aids |
-| 4 | Only verified work is "done" | Unchecked "all done" |
-| 5 | Never overwrite others' changes | Parallel-session conflicts |
+| 1 | If direction is missing, keep asking | Gaps filled by guessing |
+| 2 | The user decides; keep the whole context | Lost initiative, the whole bent to fit a part |
+| 3 | Complexity is a budget | Piling on, stacking attempts on one problem |
+| 4 | When corrected, find the whole pattern | Fixing one spot, band-aids |
+| 5 | Only verified work is "done" | Unchecked "all done" |
+
+**Conversation:** plain Korean, multiple choice with a recommendation, show instead of tell, read short commands narrowly, fixed completion report.
+
+**Development:** MECE structure, code that keeps the core design instead of patching on, replace old features rather than keeping both, verify directly, safe deploys and git.
 
 Full text: [CLAUDE.md](./CLAUDE.md). Examples: [EXAMPLES.md](./EXAMPLES.md).
 
 ## Versus Karpathy
 
-Rules 0 and 1 go beyond stating assumptions: they ask until no gap remains. Rule 2 matches Simplicity First and adds a stop after two failed fixes. **Rule 3 is the opposite of Surgical Changes:** one correction widens to the same pattern everywhere, but only the same problem, and other problems are reported, not fixed. Rule 4 adds using the product as a real user and a fixed completion report. Rule 5 is new. If both are installed, this rule 3 wins.
+**Rule 4 is the opposite of Surgical Changes:** one correction widens to the same pattern everywhere, but only the same problem, and other problems are reported, not fixed. If both are installed, this rule 4 wins. The rest extends Karpathy's direction: ask until no gap remains, keep the whole context, keep the design MECE, and verify as a real user.
 
 ## Install
 
